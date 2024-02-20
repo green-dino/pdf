@@ -1,7 +1,34 @@
-streamlit==0.90.0
-pdfminer.six==20201018
-nltk==3.6.3
-wordcloud==1.8.1
-matplotlib==3.4.3
-seaborn==0.11.2
-pandas==1.3.3
+Requirements:
+
+- Python 3.6 or higher
+- streamlit==0.90.0
+- pdfminer.six==20201018
+- nltk==3.6.5
+- wordcloud==1.8.1
+- matplotlib==3.4.3
+- seaborn==0.11.2
+- pandas==1.3.3
+- spacy==3.1.3
+- scikit-learn==0.24.2
+- plotly==5.3.1
+
+Description:
+
+The application aims to provide text analysis functionalities. It allows users to upload PDF documents and perform various text analysis tasks, including sentiment analysis, word frequency analysis, topic modeling, and visualization.
+
+Dependencies:
+
+- streamlit: Used for building the web application interface.
+- pdfminer.six: Required for extracting text from PDF documents.
+- nltk: Used for natural language processing tasks such as tokenization, sentiment analysis, and frequency distribution.
+- wordcloud: Utilized for generating word clouds from text data.
+- matplotlib and seaborn: Used for data visualization purposes.
+- pandas: Required for data manipulation and analysis.
+- spacy: Used for advanced natural language processing tasks such as named entity recognition.
+- scikit-learn: Required for implementing Latent Dirichlet Allocation (LDA) for topic modeling.
+- plotly: Utilized for interactive data visualization.
+
+Additional Notes:
+
+- The 'analysis' module is imported for text analysis functionalities, including TextAnalyzer class.
+- Make sure to have the necessary data files or models required by spacy for specific tasks like named entity recognition.
