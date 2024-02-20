@@ -3,6 +3,7 @@ from pdfminer.high_level import extract_text
 from analysis import TextAnalyzer
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import pdfminer
 
 def main():
     st.title("PDF Word Cloud Generator and Text Analysis")
