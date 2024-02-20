@@ -1,6 +1,6 @@
 - Python 3.6 or higher
 - streamlit==
-- pdfminer.six==20201018
+- pdfminer.six==
 - nltk==3.6.5
 - wordcloud==1.8.1
 - matplotlib==3.4.3
