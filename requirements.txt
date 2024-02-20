@@ -1,5 +1,3 @@
-Requirements:
-
 - Python 3.6 or higher
 - streamlit==
 - pdfminer.six==20201018
