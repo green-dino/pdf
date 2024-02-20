@@ -1,7 +1,7 @@
 Requirements:
 
 - Python 3.6 or higher
-- streamlit==0.90.0
+- streamlit==
 - pdfminer.six==20201018
 - nltk==3.6.5
 - wordcloud==1.8.1
